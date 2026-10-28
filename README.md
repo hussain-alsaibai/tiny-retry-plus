@@ -1,20 +1,20 @@
 # tiny-retry-plus
 
-[![PyPI](https://img.shields.io/pypi/v/tiny-retry-plus?color=blue)](https://pypi.org/project/tiny-retry-plus/)
-[![Python](https://img.shields.io/pypi/pyversions/tiny-retry-plus)](https://pypi.org/project/tiny-retry-plus/)
+[![Install](https://img.shields.io/badge/install-git%2Bhttps-blue)](https://github.com/hussain-alsaibai/tiny-retry-plus#install)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://github.com/hussain-alsaibai/tiny-retry-plus#install)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Zero deps](https://img.shields.io/badge/dependencies-0-brightgreen)](https://pypi.org/project/tiny-retry-plus/)
+[![Zero deps](https://img.shields.io/badge/dependencies-0-brightgreen)](https://github.com/hussain-alsaibai/tiny-retry-plus#install)
 
 > **Zero-dependency retry with jitter, adaptive backoff, and circuit-breaker integration. Sync + async. MIT.**
 
-A stdlib-only Python retry library that takes [`tiny-retry`](https://pypi.org/project/tiny-retry/) and adds the knobs you actually need in production: full / decorrelated / decaying jitter, total-timeout awareness, HTTP `Retry-After` honoring, and an opt-in circuit breaker.
+A stdlib-only Python retry library that takes [`tiny-retry`](https://github.com/hussain-alsaibai/tiny-retry-plus) and adds the knobs you actually need in production: full / decorrelated / decaying jitter, total-timeout awareness, HTTP `Retry-After` honoring, and an opt-in circuit breaker.
 
 ---
 
 ## Install
 
 ```bash
-pip install tiny-retry-plus
+pip install git+https://github.com/hussain-alsaibai/tiny-retry-plus.git
 ```
 
 Or grab the single file — there are no dependencies:
